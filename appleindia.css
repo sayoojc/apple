@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .logo img{
+    height: 18px;
+    
+}
+.navbar .nav-icons img{
+    height: 18px;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, .9);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin-left: 40px;
+    font-size: 14px;
+}
+.offers{
+    
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(99, 97, 97);
+}
+
+.offers a{
+    color: yellow;
+    padding-bottom: 13px;
+}
+.offers p{
+    padding-bottom: 13px;
+}
+.firsttext{
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(images/iphonefinale.jpg);
+    background-position: center;
+    
+
+}
+.firsttext h1{
+    font-size: 55px;
+    color: white;
+}
+.firsttext h2{
+    font-size: 25px;
+    color: white;
+}
+.firsttext a{
+    font-size: 20px;
+    padding-inline: 20px;
+    color: blue;
+}
+.img1{
+    width: 100%;
+    height: 300px;
+}
+.secondtext{
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-position: center;
+   
+}
+.secondtext h1{
+    font-size: 55px;
+    color: black;
+}
+.secondtext h2{
+    font-size: 25px;
+    color: black;
+}
+.secondtext a{
+    font-size: 20px;
+    padding-inline: 20px;
+    color: blue;
+}
+.thirdtext{
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(images/macbookimage.jpg);
+    background-position: center;
+   
+}
+.thirdtext h1{
+    font-size: 55px;
+    color: black;
+}
+.thirdtext h2{
+    font-size: 25px;
+    color: black;
+}
+.thirdtext a{
+    font-size: 20px;
+    padding-inline: 20px;
+    color: blue;
+}
+.fourthtext{
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+    text-align: center;
+    background-image: url(images/hero_imac__dqh65mwjj04m_large.jpg);
+    background-position: center;
+   
+}
+.fourthtext h1{
+    font-size: 55px;
+    color: black;
+}
+.fourthtext h2{
+    font-size: 25px;
+    color: black;
+}
+.fourthtext a{
+    font-size: 20px;
+    padding-inline: 20px;
+    color: blue;
+}
+.cards .card-img-overlay a{
+   text-decoration: none;
+}
+#carouselExampleCaptions{
+    height: 800px;
+}
+.list-unstyled a{
+    text-decoration: none;
+}
+body{
+    
+    background-color:#000;
+}
+
+.navbar.navbar-dark.navbar-expand-md.bg-dark {
+  background-color: #000;
+}
+
+.fa.fa-apple.apple-logo { 
+  font-size: 25px;
+  line-height: 0.8;
+}
+.cards .row1{
+    display: flex;
+}
+.cards .row2{
+    display: flex;
+}
+.btns{
+    padding: 3px 10px;
+    background: #0f0f0e;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    color: blue;
+}
+.popup{
+    width: 200px;
+   border-radius: 6px; 
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%)scale(0.1);
+   text-align: center;
+   padding: 0 30px 30px;
+   margin: 100px;
+   background-color: #fff;
+   color:#080808;
+   visibility: hidden;
+   transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+
+}
+.popup img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 5px;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+@media(max-width:1400px){
+    .offers{
+        padding-top :100px; ;
+    }
+}
+/*cards*/
+@media (max-width: 950px) {
+    .cards .row1 h1{
+        font-size: 15px;
+    }
+    .cards .row1 h5{
+        font-size: 12px;
+    }
+    .cards .row1 h2{
+        font-size: 13px;
+    }
+    .cards .row1 a{
+        font-size: 10px;
+    }
+    .cards .row2 h1{
+        font-size: 15px;
+    }
+    .cards .row2 h5{
+        font-size: 12px;
+    }
+    .cards .row2 h2{
+        font-size: 12px;
+    }
+    .cards .row2 a{
+        font-size: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .cards .row1 h1{
+        font-size: 10px;
+    }
+    .cards .row1 h5{
+        font-size: 6px;
+    }
+    .cards .row1 h2{
+        font-size: 8px;
+    }
+    .cards .row1 a{
+        font-size: 5px;
+    }
+    .cards .row2 h1{
+        font-size: 10px;
+    }
+    .cards .row2 h5{
+        font-size: 8px;
+    }
+    .cards .row2 h2{
+        font-size: 6px;
+    }
+    .cards .row2 a{
+        font-size: 5px;
+    }
+}
+@media (max-width: 500px) {
+    .cards .row1 h1{
+        font-size: 8px;
+    }
+    .cards .row1 h5{
+        font-size: 6px;
+    }
+    .cards .row1 h2{
+        font-size: 5px;
+    }
+    .cards .row1 a{
+        font-size: 4px;
+    }
+    .cards .row2 h1{
+        font-size: 8px;
+    }
+    .cards .row2 h5{
+        font-size: 6px;
+    }
+    .cards .row2 h2{
+        font-size: 5px;
+    }
+    .cards .row2 a{
+        font-size: 4px;
+    }
+}
+/*main images*/
+@media (max-width: 950px) {
+    .firsttext h1{
+        font-size: 40px;
+    }
+    .firsttext h2{
+        font-size: 20px;
+    }
+    .firsttext a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 950px) {
+    .secondtext h1{
+        font-size: 40px;
+    }
+    .secondtext h2{
+        font-size: 20px;
+    }
+    .secondtext a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 950px) {
+    .thirdtext h1{
+        font-size: 40px;
+    }
+    .thirdtext h2{
+        font-size: 20px;
+    }
+    .thirdtext a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 950px) {
+    .fourthtext h1{
+        font-size: 40px;
+    }
+    .fourthtext h2{
+        font-size: 20px;
+    }
+    .fourthtext a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    .firsttext h1{
+        font-size: 30px;
+    }
+    .firsttext h2{
+        font-size: 17px;
+    }
+    .firsttext a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .secondtext h1{
+        font-size: 30px;
+    }
+    .secondtext h2{
+        font-size: 17px;
+    }
+    .secondtext a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .thirdtext h1{
+        font-size: 30px;
+    }
+    .thirdtext h2{
+        font-size: 17px;
+    }
+    .thirdtext a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .fourthtext h1{
+        font-size: 30px;
+    }
+    .fourthtext h2{
+        font-size: 17px;
+    }
+    .fourthtext a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 450px) {
+    .firsttext h1{
+        font-size: 25px;
+    }
+    .firsttext h2{
+        font-size: 15px;
+    }
+    .firsttext a{
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .secondtext h1{
+        font-size: 25px;
+    }
+    .secondtext h2{
+        font-size: 15px;
+    }
+    .secondtext a{
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .thirdtext h1{
+        font-size: 25px;
+    }
+    .thirdtext h2{
+        font-size: 15px;
+    }
+    .thirdtext a{
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .fourthtext h1{
+        font-size: 25px;
+    }
+    .fourthtext h2{
+        font-size: 15px;
+    }
+    .fourthtext a{
+        font-size: 13px;
+    }
+}
+/*footer p*/
+@media (max-width: 950px) {
+    .mb-4 p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .mb-4 p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .mb-4 p{
+        font-size: 10px;
+    }
+}
+/*footer links*/
+@media (max-width: 950px) {
+    .row h5{
+        font-size: 20px;
+    }
+    .row ul li{
+      font-size: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .row h5{
+        font-size: 15px;
+    }
+    .row ul li{
+      font-size: 13px;
+    }
+}
+@media (max-width: 500px) {
+    .row h5{
+        font-size: 13px;
+    }
+    .row ul li{
+      font-size: 10px;
+    }
+}
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
